@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="auteur" content="Danesh Khodadad" />
+    <meta name="description" content="This is Abubakar Ansari CV " />
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png" />
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.css"
+    />
+
+    <!--==================== AOS CSS ====================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>AR PORTFOLIO</title>
+  </head>
+
+  <body id="body" class="dark-theme">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Abubakar Ansari </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Project
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- theme change button  -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps nav__icon"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__conatiner container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/muhammad-abubakar-9a1859371/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/MuhammadAbubakar09/practice_git"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=abubakar3691215@gmail.com"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-envelope"></i>
+              </a>
+            </div>
+            <div
+              class="home__img"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="2500"
+            >
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <circle cx="100" cy="89" r="87" />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <image
+                    class="home__blob-img"
+                    x="11"
+                    y="0"
+                    width="1887"
+                    height="177"
+                    href="AR.jpg"
+                  ></image>
+                </g>
+              </svg>
+            </div>
+
+            <div
+              class="home__data"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-duration="2500"
+            >
+              <h1 class="home__title">Hello, I'm Abubakar Ansari</h1>
+              <h3 class="home__subtitle" id="target">
+                <!-- Frontend developer -->
+                <a
+                  href=""
+                  class="typewrite"
+                  data-period="2000"
+                  data-type='[ "Web Developer"]'
+                >
+                  <span class="wrap"></span>
+                </a>
+              </h3>
+              <p class="home__description">Junior Web Developer Developer.</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section
+        class="about section"
+        id="about"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My intorduction</span>
+        <div class="about__container container grid">
+          <img
+            src="AR.jpg"
+            alt="men-with-pc"
+            class="about__img"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="2500"
+          />
+          <div class="about__data">
+            <code
+              class="about__description"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="2500"
+            >
+              <span class="token keyword">const</span>
+              <span class="token class-name">Abubakar Ansari</span> =
+              <span class="token punctuation">{</span>
+              <br />
+              <span class="token keyword">pronouns</span>:
+              <span class="token string">"He"</span>
+              <span class="token keyword">|</span>
+              <span class="token string">"Him"</span>,
+              <br />
+              <span class="token keyword">age</span>:
+              <span class="token string">"17 years old"</span>,
+              <br />
+              <span class="token keyword">city</span>:
+              <span class="token string">"Sukkur"</span>,
+              <br />
+              <span class="token keyword">code</span>:
+              <span class="token punctuation">[</span>
+              <span class="token string">"Javascript"</span>,
+              <span class="token string">"React.js"</span>,
+              <span class="token string">"Html"</span>,
+              <span class="token string">"Css"</span>
+              <span class="token punctuation">]</span>,
+              <br />
+              <span class="token keyword">askMeAbout</span>:
+              <span class="token punctuation">[</span>
+              <span class="token string">"Web Developer"</span>,
+              <span class="token string">"Frontend Developer"</span>
+              <span class="token string">"FullStack Developer"</span>
+              <span class="token punctuation">]</span>,
+              <br />
+              <span class="token keyword">currentFocus</span>:
+              <span class="token string">"Update my knowledge"</span>,
+              <br />
+              <span class="token keyword">funFact</span>:
+              <span class="token string"
+                >"There are two ways to write error-free programs; only the
+                third one works"</span
+              >
+              <br />
+              <span class="token punctuation">}</span>;
+            </code>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title"> 06+ </span>
+                <span class="about__info-name">
+                  Month <br />
+                  experience
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title"> 10+ </span>
+                <span class="about__info-name">
+                  Completed <br />
+                  projects
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title"> 01 </span>
+                <span class="about__info-name">
+                  Companies <br />
+                  worked <br />
+                  Silver Pont Communication
+                </span>
+              </div>
+            </div>
+
+            <!-- <div class="about__buttons">
+              <a
+                download=""
+                href="#"
+                class="button button--flex"
+              >
+                Download CV <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section
+        class="skills section"
+        id="skills"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!-- ------------- SKILL 1 ------------ -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Web Developer</h1>
+                  <span class="skills__subtitle">More than 1 years</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML & Css</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">NodeJS and ExpressJS</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+
+                
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- ------------- SKILL 2 ------------ -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-desktop skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Other</h1>
+                  <span class="skills__subtitle">More than 1 years</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__git"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">VsCode</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__vscode"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section
+        class="qualification section"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex" id="education-btn">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" id="work-btn">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION Content 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Currently doing intermediate</h3>
+                  <span class="qualification__subtitle">Islamia Science College Sukkur</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Apart of ECP (Enterprise Challenge Pakistan)</h3>
+                  <span class="qualification__subtitle"
+                    >APWA High School Sukkur</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION Content 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle">Self learning and Improvement</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2024 - Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section
+        class="services section"
+        id="services"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+
+        <div class="services__container container grid">
+          <!--==================== SERVICES 1 ====================-->
+          <div class="services__content">
+            <i class="uil uil-arrow services__icon"></i>
+
+            <h3 class="services__title">
+              Frontend <br />
+              Developer
+            </h3>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View more
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Frontend <br />
+                  Developer
+                </h4>
+
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Develope the Modren UI/UX</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Have Taste and Creativity</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Develope a Responsive Web Pages</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==================== SERVICES 3 ====================-->
+          <div class="services__content">
+                    <i class="uil uil-pen services__icon"></i>
+                    <h3 class="services__title">
+                        Backend <br>
+                        Developer
+                    </h3>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Backend <br>
+                                Developer
+                            </h4>
+
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Communicate With Server</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web Site development</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Database Management</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>API Handling</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section
+        class="portfolio section"
+        id="portfolio"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="Quiz.png"
+                alt="shirazsuf"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modren Quiz App</h3>
+                <p class="portfolio__description">
+                  My latest project built with Node.js and Express.js
+
+I created a web app that delivers an interactive quiz experience focused on augmented reality concepts. The goal was to make learning about AR fun, fast, and accessible through a simple backend architecture.
+
+The app handles user sessions, dynamic question rendering, and result tracking — all powered by Express for efficient routing and clean RESTful APIs.
+                </p>
+                <a
+                  href="Quiz.png"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="AI.png"
+                alt="chat messenger"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">AI Chat Bot</h3>
+                <p class="portfolio__description">
+                  Completed my Chatbot project with Node.js!
+
+This was a great opportunity to combine backend logic with conversational flow. I built a chatbot capable of handling user queries, managing responses, and providing an interactive experience — all powered by Node.js.
+                </p>
+                <a
+                  href="AI.png"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="Watch.png"
+                alt="lussohom.com"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Watch E-commerce Website</h3>
+                <p class="portfolio__description">
+                  Completed my E-commerce Watch Business website.
+                  Understanding Functionality in JavaScript and make project with modren UI/UX and also apply modren Vanilla JS Frontened on my website.  
+                </p>
+                <a
+                  href="Watch.png"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="weather.png"
+                alt="padamo.ir"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">padamo.ir</h3>
+                <p class="portfolio__description">
+                  I’m happy to share my first full JavaScript project Weather Application. 🎉
+This journey taught me a lot about problem-solving, debugging, and bringing ideas to life with code.
+Built my Weather App completely with JavaScript.
+                </p>
+                <a
+                  href="weather.png"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="cafe.png"
+                alt="lussohom.com"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">AR Café Bistro</h3>
+                <p class="portfolio__description">
+                  I completed my CSS course final project: AR Café Bistro Website ✨
+
+I designed and developed a fully responsive website for a modern café and bistro concept. The project focuses on:
+Clean, user-friendly layout to showcase menu items and atmosphere.
+Responsive design for smooth browsing across devices.
+Stylish CSS animations and transitions to create an engaging experience.
+Creative branding elements tailored to a café/bistro theme.  
+                </p>
+                <a
+                  href="cafe.png"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+
+            
+                    </div>
+          </div>
+          <!-- ---- add Arrows --- -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section
+        class="project section"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">You have a new project</h2>
+              <p class="project__description">
+                Contact me now and get a 30% discount
+              </p>
+              <a href="#contact" class="button button--flex button-white">
+                Contact Me
+                <i class="uil uil-message project__icon button__icon"></i>
+              </a>
+            </div>
+
+            <img src="project.jpg" alt="" class="project__img">
+            <img
+              src=""
+              alt=""
+              class="project__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section
+        class="contact section"
+        id="contact"
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-duration="2500"
+      >
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+92 3322944240</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">abubakar3691215@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Pakistan - Sukkur</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="#" method="POST" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" required />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" name="email" class="contact__input" required />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input" required />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="0"
+                  rows="4"
+                  class="contact__input"
+                  required
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Abubakar Ansari</h1>
+            <span class="footer__subtitle">Web Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">contact me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/muhammad-abubakar-9a1859371/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <a
+              href="https://github.com/MuhammadAbubakar09/practice_git"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=abubakar3691215@gmail.com"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">
+          made with ❤️ by
+          <a href=""
+            >Abubakar Ansari <i class="uil uil-arrow-left"></i
+          ></a>
+        </p>
+        <p class="footer__copy">&333; AR Coder All right reserved</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a
+      href="#body"
+      class="scrollup"
+      id="scroll-up"
+      data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-duration="2500"
+    >
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js"></script>
+
+    <!--==================== AOS JS ====================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="index.js"></script>
+  </body>
+</html>
